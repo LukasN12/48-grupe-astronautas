@@ -20,9 +20,9 @@ Design: [Astronautas](https://dribbble.com/shots/5964475-404-Lost-in-Space)
 ## 🎯 Project features/goals
 
 -   Github pages
--   CSS units: px, %
--   basic design layout
--   image with relative paths
+-   CSS units: vh
+-   CSS flex
+-   CSS hover state
 -   **no responsive design**
 
 ## 🧰 Getting Started

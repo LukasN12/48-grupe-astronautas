@@ -1,0 +1,39 @@
+
+.container {
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    margin-bottom: 40px;
+    background-color: yellow;
+}
+
+.logo {
+}
+.main-nav {    
+}
+.main-nav > .nav-link {
+}
+.column-left {
+}
+.column-right {
+}
+.main-title {
+}
+.subtitle {
+}
+.description {
+}
+.btn-list{
+}
+.btn-list > .btn{
+}
+.btn-list > .btn + .btn {
+}
+
+main > div {
+}
+main > div > h1 {
+}
+main > div > h2 {
+}
+main > div > p {
+}

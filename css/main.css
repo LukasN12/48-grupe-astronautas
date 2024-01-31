@@ -1,3 +1,11 @@
+body,
+body {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -13,13 +21,11 @@ body {
     align-items: center;
     gap: 40px;
     width: 800px;
-   /* margin-left: calc((100% - 800px) / 2); */
-    background-color: yellow;
 }
 
 .logo {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 100px;
     object-fit: contain;
     object-position: left center;
 }
@@ -28,12 +34,16 @@ body {
     gap: 20px;
 }
 .main-nav > .nav-link {
-    text-decoration: none;
     font-size: 20px;
+    text-decoration: none;
     color: black;
+    border-bottom: 3px solid transparent;
+}
+.main-nav > .nav-link:hover {
+    border-color: blue;
 }
 .main-nav > .nav-link.active {
-    border-bottom: 5px solid red;
+    border-color: red;
 }
 .column-left {
 }

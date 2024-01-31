@@ -46,21 +46,35 @@ body {
     border-color: red;
 }
 .column-left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
 }
 .column-right {
+    width: 55%;
 }
 .main-title {
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.subtitle {
+.main-title > span {
+    display: block;
+    font-weight: 100;
 }
 .description {
+    font-size: 20px;
 }
+
 .btn-list{
 }
 .btn-list > .btn{
 }
 .btn-list > .btn + .btn {
+}
+
+.main-img {
+    width: 110%;
 }
 
 main > div {
